@@ -14,9 +14,7 @@ function stopAfter(Cb, nr, max) {
     }, nr)
     
 }
-function cb (){
-    logName();
-}
+
 function logName() {
     console.log('Bob');
 }

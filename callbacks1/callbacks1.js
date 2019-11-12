@@ -3,8 +3,8 @@ startAfter(logName, 1000, 3000);
 
 function startAfter(cb, nr, offset) {
     /** Your code here */
-    setInterval(function () {
-        setTimeout(function cb() {
+    setTimeout(function () {
+        setInterval(function cb() {
             logName();
         }, nr)
     }, offset)
